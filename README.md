@@ -54,7 +54,8 @@ pip install -r requirements.txt
 4. Run the script:
 
 ```bash
-python main.py 
+python main.py
+or
 python3 main.py
 ```
 
@@ -95,5 +96,5 @@ Stay savage. 👑
 
 # 🔗 License
 
-_GPL3.0_
+_GPL-3.0_
 
