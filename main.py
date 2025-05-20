@@ -1,3 +1,4 @@
+# usr/bin/env python3
 import cv2
 import os
 import mediapipe as mp
@@ -7,7 +8,7 @@ def shut_down_computer():
 	if os.name == 'nt':
 		os.system('shutdown /s /t 0')
 	elif os.name == 'posix':
-		os.system('poweroff')
+		os.system('systemctl poweroff -i')
 	else :
 		print("os not supported")
 
